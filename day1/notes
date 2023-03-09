@@ -1,0 +1,58 @@
+Machine Learning:
+
+        a) Supervised Learning : The attribute to be predicted (expected as
+         output from the model) IS ALSO
+                PRESENT IN THE HISTORICAL DATA!
+
+                i)classification : when target column is categorical
+                ii)Prediction :  when target column is real-value
+
+        b) Unsupervised Learning : The attribute to be predicted (expected as output from the model) IS NOT
+                PRESENT IN THE HISTORICAL DATA!
+
+        c) Reinforcement Learning : Act of changing approach of modelling based on feedback!
+
+
+
+Supervised Learning Model Preparation Sequence
+
+
+1) Source your data!!! : [    Fetch,pull, bring, or identify the right data required for model preparation    ]
+
+2) Data exploration & Preprocessing: Understand and gain insight into data.
+Then, pre-process the data to deal with issues such as (but not limited to)
+    a) Encoding
+    b) Scaling
+    c) Cleaning of data
+    d) Feature Engineering*
+
+3) Selecting of features & target: Identify what columns of the table can be deciding factors (judgement criteria)
+        and what column represents target (expected_output)
+
+4) split the data for training & testing : 
+    100 rows
+
+    ratio split (randomly)
+    divide the data in folds : In each fold maintain original data ratio*
+    Stratified folding : Divide data in folds, use most folds from training & remaining 
+            for testing
+
+5) training of the model: Select all applicable algorithms and apply the algorithm on training samples!
+
+
+6) Evaluating/testing the model : Choose applicable metrics (evaluation techniques)
+        to test and rate the model as acceptable or not acceptable
+
+
+BONUS STEP:   YOU MAY  NEED TO TUNE THE MODEL FOR BETTER PERFORMANCE!
+
+
+7) DEPLOYMENT OF THE MODEL : Provision the launch of the model in a convenient format so that it is accessible to end-clients
+
+
+
+Evaluate
+
+-->percentage of marks
+--> sum of total marks
+--> extra curricular grades

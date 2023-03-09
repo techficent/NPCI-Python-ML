@@ -1,0 +1,11 @@
+pandas
+plotly
+scikit-learn
+openpyxl
+hyperopt
+xgboost
+tensorflow
+matplotlib
+ipykernel
+nbformat
+dtreeviz
